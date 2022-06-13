@@ -65,11 +65,11 @@ const App = () => {
         {/* <Products  products={products} onAddToCart={handleAddToCart} /> */}
         {/* </Route> */}
 
-        <Route path= "/cart" element= {<Cart cart={cart}/>}
+        <Route path= "/cart" element= {<Cart cart={cart}
         handleUpdateCartQty ={handleUpdateCartQty}
         handleRemoveFromCart ={handleRemoveFromCart}
         handleEmptyCart ={handleEmptyCart}
-        />
+        />} />
         {/* <Cart cart={cart} /> */}
         {/* </Route> */}
           
