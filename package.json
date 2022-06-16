@@ -2,6 +2,9 @@
   "name": "e-commerce2.0",
   "homepage": "https://sirmojosodope.github.io/E-commerce2.0",
   "version": "0.1.0",
+  "engines": {
+    "node": "16.14.2"
+  },
   "private": true,
   "dependencies": {
     "@chec/commerce.js": "^2.8.0",
